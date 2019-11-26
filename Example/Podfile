@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JQDBHelper_Example' do
+  pod 'JQDBHelper', :path => '../'
+
+  target 'JQDBHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
